@@ -1,0 +1,27 @@
+.packaging-manage .input-40 {
+    height: 40px;
+}
+/* 
+.packaging-manage .input-40 input.ant-input-number-input{
+    height: 32px;
+} */
+
+.packaging-manage .input-40 input.ant-input-number-input{
+    height: 38px;
+}
+
+.packaging-manage .ant-collapse {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 8px !important;
+    background: #ffffff00;
+}
+
+.packaging-manage  .ant-collapse>.ant-collapse-item >.ant-collapse-header { 
+    background-color: #d9d9d9;
+    background-color: #e5e5e5;
+}
+
+.packaging-manage .ant-collapse .ant-collapse-content>.ant-collapse-content-box {
+    padding: 16px 16px;
+}

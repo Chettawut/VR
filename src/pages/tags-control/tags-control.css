@@ -1,0 +1,19 @@
+.tag-control .text-select{
+    color: rgb(67, 105, 233);
+}
+
+.tag-control .text-select:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.tag-control .ant-table-content{
+    height: calc( 100vh - 30rem) !important;
+    overflow-y: auto !important;
+    position: relative;
+}
+ 
+.tag-control  .ant-table-tbody > tr > td, .tag-control .ant-table-thead > tr > th {
+    white-space: nowrap;
+    vertical-align: top;
+} 

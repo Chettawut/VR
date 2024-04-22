@@ -1,0 +1,62 @@
+.pilot-scale-access .ant-collapse { 
+    border-radius: 12px;
+}
+.pilot-scale-access .ant-collapse-small >.ant-collapse-item >.ant-collapse-header { 
+    padding-inline-start: 12px;
+}
+
+.pilot-scale-access .ant-collapse>.ant-collapse-item:last-child, 
+.pilot-scale-access .ant-collapse>.ant-collapse-item:last-child>.ant-collapse-header {
+    border-radius: 12px;
+    background-color: #d9d9d9;
+    border:none;
+}
+
+.pilot-scale-access .ant-collapse .ant-collapse-header,
+.pilot-scale-access .ant-collapse .ant-collapse-item-active .ant-collapse-header { 
+    border-bottom: 0px solid #fff;
+    padding-inline-start: 12px;
+    background-color: #d9d9d9;
+}
+
+.pilot-scale-access .ant-collapse .ant-collapse-item-active .ant-collapse-content,
+.pilot-scale-access .ant-collapse .ant-collapse-content {
+    color: rgba(0, 0, 0, 0.88);
+    background-color: #d9d9d9;
+    border-top: 0px solid #d9d9d9;
+    padding-inline: 12px;
+}
+
+.pilot-scale-access .ant-collapse .ant-collapse-item:last-child >.ant-collapse-content {
+    border-radius: 0 0 12px 12px;
+}
+
+.pilot-scale-manage .input-40 {
+    height: 40px;
+}
+
+.pilot-scale-manage .input-40 input.ant-input{
+    height: 32px;
+}
+
+.pilot-scale-manage .pe-2{
+    padding-right: 1.23rem !important;
+}
+.pilot-scale-manage .ant-card .ant-card-head {
+    padding: 12px 24px 0px;
+}
+/* .pilot-scale-access .ant-card {
+    border-radius: 0px;
+    box-shadow: none !important;
+    border: 0px;
+    background-color: transparent;
+} */
+.pilot-scale-manage .ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-content >table >thead>tr>td, 
+.pilot-scale-manage .ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-content >table >tbody>tr>td {
+    border-inline-end: 1px solid #f0f0f0;
+}
+
+.pilot-scale-manage .ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-content >table >thead>tr>th, 
+.pilot-scale-manage .ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-content >table >tbody>tr>td {
+    padding-inline: 1rem .5rem;
+}

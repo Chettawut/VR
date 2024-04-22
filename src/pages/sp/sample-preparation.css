@@ -1,0 +1,313 @@
+.sample-request-modal .ant-card .ant-card-head { 
+    padding: 0 16px; 
+    border-bottom: 0px solid #f0f0f0;
+    /* border-radius: 8px 8px 0 0; */
+}
+
+.sample-request-modal .pe-2 { 
+    padding-right: 1.2rem !important;
+}
+
+.sample-request-modal .ps-2 { 
+    padding-left: 1.2rem !important;
+}
+
+.sample-request-modal table tbody tr td{
+    padding: 16px 24px;
+    line-height: 2rem;
+    vertical-align: top;
+}
+
+.sample-request-modal table tbody tr td .bt-icon { 
+    line-height: 1.2rem; 
+}
+
+.field-edit .editable-cell-value-wrap{
+   line-height: 1.4rem !important;
+   border: 1px solid rgb(255, 255, 255) !important;
+}
+
+.field-edit.ant-table-cell-row-hover .editable-cell-value-wrap{
+   line-height: 1.4rem !important;
+   border: 1px solid rgb(160, 164, 167) !important;
+}
+
+.field-edit input{
+   width: 100%;
+   min-width: none;
+}
+
+.field-edit .ant-form-item-control-input-content{
+   display: inherit;
+} 
+
+.field-edit textarea{
+   width: 100%;
+   min-width: none;
+   padding: 8px;
+} 
+
+.field-edit textarea:focus, .field-edit textarea:focus-visible{
+    border-color: #4096ff !important;
+    min-width: none;
+    /* height: 64px; */
+    outline: 0px !important;
+    padding: 8px;
+}
+ 
+
+.field-edit .ant-form-item .ant-form-item-explain, .field-edit .ant-form-item .ant-form-item-extra {
+    font-size: 11px;
+}
+
+.editable-row > .ant-table-cell.pe-2 {
+    padding-right: 1.2rem !important;
+}
+ 
+.editable-row > .field-edit.ant-table-cell.pe-2 {
+    padding-right: .688rem !important;
+}
+
+/* style css for table choose items */
+.sample-request-modal-items .ant-table-wrapper .ant-table-tbody .ant-table-row.ant-table-row-selected >.ant-table-cell {
+    background: #cdcdcd;
+}
+
+.ant-form .ant-form-item {
+    margin-bottom: 12px !important;
+}
+
+.ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container { 
+    border: none;
+}
+
+.sp-layout .ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-title {
+    /* border: 1px solid #f0f0f0; */
+    border-bottom: 0;
+    background-color: #bbbbbf;
+    border-radius: 0px;
+}
+
+.sp-layout .ant-table-content {
+    /* max-height: 60vh; */
+    /* padding-left: 16px; */
+    /* scrollbar-gutter: stable; */
+    border: 0px solid;
+    position: relative;
+    overflow-y: auto !important;
+}
+
+thead.ant-table-thead {
+    /* position: sticky; */
+    top: 0;
+    z-index: 3;
+}
+ 
+.sp-layout .ant-table-content::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    border-radius: 2rem;
+}
+
+.sp-layout .ant-table-content::-webkit-scrollbar-thumb {
+    background: #eee;
+    border-radius: 2rem;
+}
+
+.sp-layout .ant-table-content::-webkit-scrollbar-track {
+    background: #efecec36;
+}
+
+.ant-table-expanded-row-fixed::after {
+    border-inline-end: 0px solid #f0f0f0 !important;
+}
+
+.ant-table-expanded-row-fixed {
+    width: 100% !important;
+    margin: 0px !important;
+}
+
+.field-edit.suffix .ant-input-affix-wrapper > input.ant-input {
+    height: 22px;
+    text-align: end;
+}
+
+.collapse.ant-card {
+    border-radius: 12px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.03), 0 1px 6px -1px rgba(0, 0, 0, 0.02), 0 2px 4px 0 rgba(0, 0, 0, 0.02);
+}
+
+.lost-field{
+    border-color: #fff;
+}
+
+.lost-field .ant-input-number-input-wrap input{
+    text-align: end !important;
+    padding-inline-end: 1.5rem;
+}
+
+.lost-field.ant-input-affix-wrapper-focused{
+    border-color: #4096ff !important;
+}
+
+.ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover {
+    border-color: rgb(160, 164, 167);
+    z-index: 1;
+}
+
+
+.sample-request-modal .ant-empty-normal {
+    margin-block: 0px;
+    color: rgba(0, 0, 0, 0.25);
+}
+
+.sample-request-modal .ant-table-wrapper .ant-table-expanded-row-fixed {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+}    
+
+.sample-request-modal .ant-form-item .ant-form-item-label >label {
+    height: auto;
+}
+
+.append-step::before{
+    content: '';
+    position: absolute;
+    height: 0.2rem;
+    width: 100%;
+    top: calc(40px / 2 - 0.025rem);
+    background: #d9d9d9;
+    border-radius: 20px;
+}
+
+.append-step{
+    transition: background 1s linear;
+}
+
+.append-step:hover::before {
+    background: #4096ff; 
+}
+
+.append-step:hover button { 
+    border-color: #4096ff;
+}
+
+.append-step::before{
+    content: '';
+    position: absolute;
+    height: 0.2rem;
+    width: 100%;
+    top: calc(40px / 2 - 0.025rem);
+    background: #d9d9d9;
+    border-radius: 20px;
+    transition: background .25s linear;
+}
+
+.sample-request-modal-items .ant-table-content{
+    height: calc( 100vh - 30rem) !important;
+    overflow-y: auto !important;
+    position: relative;
+}
+
+.sample-preparation-view .ant-table-content{
+    background-color: #fafafa !important;
+}
+
+.sample-preparation-view .ant-table-wrapper .ant-table-tbody >tr >th, .sample-preparation-view .ant-table-wrapper .ant-table-tbody >tr >td { 
+    background-color: #fff !important;
+}
+
+.sample-preparation-view .ant-descriptions.ant-descriptions-bordered >.ant-descriptions-view .ant-descriptions-row >.ant-descriptions-item-label {
+    width: 200px;
+}
+
+
+.view-collapse-sp {
+    background-color: transparent;
+    border: 1px solid #ebebeb !important;
+}
+.view-collapse-sp .ant-collapse-item{
+    box-shadow: none !important;
+}
+
+.view-collapse-sp .ant-collapse-header{
+    color: rgba(0, 0, 0, 0.65) !important;
+    background-color: rgba(0, 0, 0, 0.02);
+    border-bottom: 1px solid rgb(231 231 231);
+    font-size: clamp( 13px, 0.5vw, 1rem ) !important;
+    letter-spacing: 0.4px;
+    font-weight: 600;
+    cursor: default !important;
+    padding: 16px 24px; 
+    padding-inline-start: 24px !important; 
+}
+
+.view-collapse-sp .ant-collapse-item.ant-collapse-item-active{
+    border-radius: 0px;
+    border-bottom: 1px solid #ebebeb; 
+}
+.view-collapse-sp .ant-collapse-item.ant-collapse-item-active:last-child{ 
+    border-bottom: 0px solid #ebebeb; 
+} 
+
+
+.panel-approve.approved .ant-drawer-header{
+    background-color: #1fdc81;
+}
+
+.panel-approve.approved .ant-drawer-title, .panel-approve.approved .ant-drawer-header-title svg{
+    color: #000000;
+    fill: #000000;
+}
+
+.panel-approve.rejected .ant-drawer-header{
+    background-color: #de453e;
+}
+
+.panel-approve.rejected .ant-drawer-title, .panel-approve.rejected .ant-drawer-header-title svg{
+    color: #ffffff;
+    fill: #fff;
+}
+
+ 
+.view-collapse-sp .ant-card {
+    border-bottom: 0px solid #d9d9d9;
+}
+
+.view-collapse-sp  .ant-collapse-borderless >.ant-collapse-item {
+    border-bottom: 0px solid #d9d9d9;
+} 
+
+.bn-bold {
+    font-weight: 900 !important;
+    font-size: 1.1rem !important;
+    font-style: italic;
+    letter-spacing: 0.1rem;
+}
+
+.select-tags.ant-select-outlined.ant-select-multiple .ant-select-selection-item {
+    background: rgba(255, 255, 255, 0.06);
+    border: 0px solid transparent; 
+    padding: 0;
+    position: relative;    
+}
+
+.select-tags.ant-select-multiple .ant-select-selection-item-remove {
+    position: absolute;
+    right: 0px;
+    top: 6px;
+    /* height: 100%; */
+    background: #a1a0a5;
+    color: #d7dadc;
+    border-radius: 50%;
+    padding: 1px; 
+}
+
+.shelf-unit-select.ant-select .ant-select-arrow {
+    right: 16px;
+}
+
+.cus-approved td {
+    background-color: #d6e7d3 !important
+}

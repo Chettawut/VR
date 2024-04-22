@@ -1,0 +1,12 @@
+/* .unit-manage button.ant-switch:not(.ant-switch-disabled) {
+    background: rgba(0, 0, 0, 0.45);
+} */
+.modal-estimate.ant-modal-wrap {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    overflow: auto;
+    outline: 0;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+}
